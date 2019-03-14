@@ -1,0 +1,8 @@
+<h1>Your Text Contain {{count}} Words.</h1>
+<h1> Your Text: </h1>
+{{ fulltext }}
+
+{% for word, counter in sortedlist %}
+{{word}} - {{counter}}
+<br />
+{% endfor %}
